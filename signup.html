@@ -14,38 +14,35 @@
     </script>
     <link rel="stylesheet" href="asset/css/index.css">
     <link rel="stylesheet" href="asset/css/basic.css">
-    <title>首頁</title>
+    <title>註冊</title>
 </head>
 
 <body>
     <!--標題-->
     <p id="app_title">小琉球一日遊訂約系統</p>
-    <p id="date_word">請選擇想要旅遊的日期</p>
-    <!--月曆-->
-    <div>
-
-    </div>
-    <!--資料-->
+    <p id="signup_word">會員註冊</p>
     <div class="main_body">
         <div class="mid_body">
             <form action="">
                 <div class="mb-3">
-                    <label for="index_num" class="col-form-label" id="num">請輸入人數</label>
-                            <input type="text" class="form-control" id="mem_name1" placeholder="參與者名稱" required>
+                    <label for="sign_id" class="col-form-label" id="id">請輸入會員名稱</label>
+                            <input type="text" class="form-control" id="sign_id" placeholder="輸入會員名稱" required>
                 </div>
                 <div class="mb-3">
-                    <label for="index_break" class="col-form-label" id="break">請輸入早餐數量</label>
-                    <input type="text" class="form-control" id="index_break" placeholder="輸入早餐數量" required>
+                    <label for="sign_email" class="col-form-label" id="email">請輸入電子信箱</label>
+                    <input type="text" class="form-control" id="sign_email" placeholder="輸入電子信箱" required>
                 </div>
                 <div class="mb-3">
-                    <label for="index_dinner" class="col-form-label" id="dinner">請輸入晚餐數量</label>
-                            <input type="text" class="form-control" id="index_dinner" placeholder="輸入晚餐數量" required>
+                    <label for="sign_phone" class="col-form-label" id="phone">請輸入手機號碼</label>
+                    <input type="text" class="form-control" id="sign_phone" placeholder="輸入手機號碼" required>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <input type="submit" class="btn btn-primary" id="membtn" value="確認" href="lo
-                    ">
+                    <input type="submit" class="btn btn-primary" id="signupbtn" value="獲取驗証碼" href="member.html">
                 </div>
             </form>
+            <div class="d-grid gap-2">
+                <a class="btn" href="login.html" style="color:#6C6C6C;">返回登入</a>
+            </div>
         </div>
     </div>
 </body>
